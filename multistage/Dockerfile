@@ -1,3 +1,5 @@
+###Comparison between build size of distroless image (using scratch) and other images which have library(ubuntu)
+
 FROM scratch
 COPY hello /
 CMD ["/hello"]
