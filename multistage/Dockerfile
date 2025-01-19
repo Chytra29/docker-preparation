@@ -1,5 +1,6 @@
 FROM scratch
-ENTRYPOINT ["echo","hello"] 
+COPY hello /
+CMD ["/hello"]
 
 
 
